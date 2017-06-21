@@ -1,0 +1,35 @@
+<template name="base">
+    <html>
+    <head>
+        <title>Simple Blog</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Kube CSS -->
+        <link rel="stylesheet" href="/kube.min.css">
+        <link rel="stylesheet" href="/nav.css" >
+
+    </head>
+    <body>
+    <nav>
+        <div class="row container">
+            <div class="col col-2 brand"><img src="/blogLogo.png" alt="Logo" /></div>
+            <div class="col col-10">
+                <ul class="nav">
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >Categories</a></li>
+                    <li><a href="#" >Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br/>
+    {{> yield}}
+
+    <!-- Kube JS + jQuery are used for some functionality, but are not required for the basic setup -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/kube.min.js"></script>
+    </body>
+    </html>
+</template>
