@@ -14,12 +14,16 @@
     <body>
     <nav>
         <div class="row container">
-            <div class="col col-2 brand"><img src="/blogLogo.png" alt="Logo" /></div>
+            <div class="col col-2 brand"><a href="/"><img src="/blogLogo.png" alt="Logo" /></a></div>
             <div class="col col-10">
                 <ul class="nav">
                     <li><a href="/" >Home</a></li>
                     <li><a href="/c/all" >Categories</a></li>
-                    <li><a href="#" >Login</a></li>
+                    {{#if currentUser}}
+                        <li><a href="/admin" title="Admin">Admin</a></li>
+                    {{else}}
+                        <li><a href="/login" >Login</a></li>
+                    {{/if}}
                 </ul>
             </div>
         </div>

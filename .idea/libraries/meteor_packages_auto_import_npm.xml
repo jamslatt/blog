@@ -2,6 +2,19 @@
   <library name="meteor-packages-auto-import-npm" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/scripts/build.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/externs/bcrypt.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/externs/minimal-env.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/dist/bcrypt.min.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/dist/bcrypt.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/util/base64.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/prng/isaac.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/prng/accum.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/impl.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/util.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/wrap.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/index.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.1.2/npm/node_modules/grunt/lib/grunt.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.1.2/npm/node_modules/grunt/lib/util/task.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.1.2/npm/node_modules/grunt/lib/grunt/help.js" />
@@ -5102,6 +5115,19 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/scripts/build.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/externs/bcrypt.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/externs/minimal-env.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/dist/bcrypt.min.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/dist/bcrypt.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/util/base64.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/prng/isaac.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/prng/accum.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/impl.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt/util.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/bcrypt.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/src/wrap.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/npm-bcrypt/0.9.3/npm/node_modules/bcryptjs/index.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.1.2/npm/node_modules/grunt/lib/grunt.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.1.2/npm/node_modules/grunt/lib/util/task.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.1.2/npm/node_modules/grunt/lib/grunt/help.js" />
