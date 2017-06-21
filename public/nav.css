@@ -31,3 +31,20 @@ body {
 pre {
     width: 100%;
 }
+a {
+    color: #3444a5;
+    text-decoration: none;
+}
+.admin__in_p {
+    float: right;
+}
+mark a {
+    color: #eee;
+}
+mark a:hover {
+    color: #eee;
+}
+hr {
+    color: #3444a5;
+    padding: 10px 0px;
+}

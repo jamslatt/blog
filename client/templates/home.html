@@ -1,30 +1,9 @@
 <template name="home">
 <div class="row">
     <div class="container">
-        <article>
-            <div class="row">
-                <h3 class="title">This is the title of a blog!&nbsp;<kbd>Tech</kbd>&nbsp;<kbd>Politics</kbd></h3>
-            </div>
-            <div class="row">
-                <img src="/exPost.jpg" alt="car" width="100%" />
-            </div>
-            <br/>
-            <div class="row">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget libero auctor, viverra tellus quis, bibendum urna. Nam urna mi, dignissim id molestie quis, cursus ac velit. Etiam interdum sem ac leo pretium cursus. Donec eu consectetur mauris. Fusce lacus eros, pharetra in mattis quis, malesuada non turpis. Nam dictum, elit et ultricies iaculis, sem sem condimentum diam, non pharetra purus lectus sed enim. Donec at tincidunt elit.</p>
-                <blockquote>The reason we all like donuts is becuase it has candy!</blockquote>
-                <p>Mauris molestie mi dolor, non pretium dolor tempus sed. Vivamus sed erat eu est cursus pulvinar eget vel ante. Ut eget metus eget eros rhoncus lacinia. Curabitur quis euismod tellus. Nullam congue eros elit, nec mattis lacus tincidunt eleifend. Nullam vel malesuada nunc. Integer ac libero scelerisque, venenatis turpis quis, laoreet eros.</p>
- <pre><code>function hello(name){
-    alert(name);
- }
-hello("Bob");
-</code></pre>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <cite>Author: Jon Doe</cite>
-                </div>
-            </div>
-        </article>
+        {{>post}}
+        <hr/>
+        {{>post}}
     </div>
 </div>
 </template>
