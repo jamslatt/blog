@@ -1,21 +1,28 @@
 <template name="admin">
-        <div class="row">
             <div class="container">
-                <h3 class="title">Register</h3>
-                <form class="form">
-                    <div class="form-item">
-                        <label for="regEmail" >Email</label>
-                        <input type="email" name="regEmail" class="w50">
-                    </div>
-                    <div class="form-item">
-                        <label for="password" >Password</label>
-                        <input type="password" name="regPassword" class="w50">
-                    </div>
-                    <div class="form-item">
-                        <button>Register</button>
-                        <button class="button secondary outline">Cancel</button>
-                    </div>
-                </form>
+                <div class="row">
+                <div class="col-6">
+                    <h3 class="title">New User</h3>
+                    <form class="form">
+                        <div class="form-item">
+                            <label for="regEmail" >Email</label>
+                            <input type="email" name="regEmail" class="w50">
+                        </div>
+                        <div class="form-item">
+                            <label for="password" >Password</label>
+                            <input type="password" name="regPassword" class="w50">
+                        </div>
+                        <div class="form-item">
+                            <button>Register</button>
+                            <button class="button secondary outline">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <h3 class="title">Manage Categories&nbsp;<kbd>Add</kbd></h3>
+                    <div style="border-left: 3px solid #000">&nbsp;Tech</div>
+                    <div style="border-left: 3px solid deepskyblue">&nbsp;Politics</div>
+                </div>
             </div>
         </div>
 </template>

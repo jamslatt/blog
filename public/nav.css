@@ -48,3 +48,8 @@ hr {
     color: #3444a5;
     padding: 10px 0px;
 }
+.newPost {
+    position: fixed;
+    top: 90vh;
+    left: 90%;
+}
