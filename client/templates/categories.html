@@ -1,8 +1,51 @@
 <template name="c_all">
     <div class="row">
-        <div class="container" style="border-left: 3px solid #000;">
-            <div class="col-4"><h4 class="title"><a href="/c/tech">Tech</a></h4></div>
-            <div class="col-8">This is a description of the tag.</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h4 class="title">All Categories</h4>
+                </div>
+                <div class="col-8">
+                    <a href="/c/new" class="newCategory button outline" style="float: right;">New Category</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{#each categories }}
+    <div class="row">
+        <div class="container" style="border-left: 3px solid {{color}};">
+            <h4 class="title"><a href="/c/{{categoryName}}">{{categoryName}}</a></h4>
+            <p>{{desc}}</p>
+        </div>
+    </div>
+    {{/each}}
+</template>
+<template name="new_category">
+    <div class="container">
+        <div class="row">
+            <h3 class="title">New Category</h3>
+        </div>
+        <div class="row">
+           <div class="col-6">
+               <form class="form">
+                   <div class="form-item">
+                       <label>Category Name</label>
+                       <input type="text" width="100%" placeholder="Meta" name="categoryName" required class="w50 catName">
+                   </div>
+                   <div class="form-item">
+                       <label>Category Color</label>
+                       <input type="text" placeholder="#212121" width="100%" name="categoryColor" required class="w50 catColor">
+                   </div>
+                   <div class="form-item">
+                       <textarea required rows="4" width="100%" name="categoryDesc" class="catDesc" placeholder="What is this category about?"></textarea>
+                   </div>
+                   <div class="form-item">
+                       <button type="submit">Create Category</button>
+                       <button type="reset" class="button secondary outline">Cancel</button>
+                   </div>
+
+               </form>
+           </div>
         </div>
     </div>
 </template>

@@ -19,9 +19,10 @@
                     </form>
                 </div>
                 <div class="col-6">
-                    <h3 class="title">Manage Categories&nbsp;<kbd>Add</kbd></h3>
-                    <div style="border-left: 3px solid #000">&nbsp;Tech</div>
-                    <div style="border-left: 3px solid deepskyblue">&nbsp;Politics</div>
+                    <h3 class="title">Manage Categories&nbsp;<kbd onclick="Router.go('/c/new')">Add</kbd></h3>
+                    {{#each categories}}
+                        <div style="border-left: 3px solid {{color}}; padding: 2px 0px;">&nbsp;<a href="/admin/c/{{categoryName}}" title="{{categoryName}}" >{{categoryName}}</a></div>
+                    {{/each}}
                 </div>
             </div>
         </div>

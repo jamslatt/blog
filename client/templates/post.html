@@ -32,24 +32,25 @@ hello("Bob");
         <div class="row">
             <div class="col-12">
                 <h2 class="title">New Post</h2>
-                <form method="post" action="" class="form">
+                <form class="form">
                     <div class="form-item">
                         <label>Title</label>
-                        <input type="text" name="text" class="w50">
+                        <input type="text" name="title" class="w50 pTitle">
                     </div>
                     <div class="form-item">
                         <label>Category</label>
-                        <select>
-                            <option value="">Politics</option>
-                            <option value="">Tech</option>
+                        <select class="pCategory">
+                            {{#each categories}}
+                                <option value="{{categoryName}}">{{categoryName}}</option>
+                             {{/each}}
                         </select>
                     </div>
                     <div class="form-item">
-                        <textarea rows="6"></textarea>
+                        <textarea rows="6" class="pContent"></textarea>
                     </div>
                     <div class="form-item">
-                        <button>Post</button>
-                        <button class="button secondary outline">Cancel</button>
+                        <button type="submit">Post</button>
+                        <button type="reset" class="button secondary outline">Cancel</button>
                     </div>
 
                 </form>
