@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d71f5be6-63a0-4c9b-a1e8-d26350b4ca08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/admin.html" afterPath="$PROJECT_DIR$/client/templates/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/base.html" afterPath="$PROJECT_DIR$/client/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/nav.css" afterPath="$PROJECT_DIR$/public/nav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jquery.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -129,6 +126,7 @@
         <option value="$PROJECT_DIR$/client/templates/admin.html" />
         <option value="$PROJECT_DIR$/public/nav.css" />
         <option value="$PROJECT_DIR$/client/templates/base.html" />
+        <option value="$PROJECT_DIR$/public/jquery.min.js" />
       </list>
     </option>
   </component>
@@ -388,12 +386,12 @@
       <option name="presentableId" value="Default" />
       <updated>1497994463024</updated>
       <workItem from="1497994464266" duration="2823000" />
-      <workItem from="1498004807584" duration="7386000" />
+      <workItem from="1498004807584" duration="7585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10209000" />
+    <option name="totallyTimeSpent" value="10408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -620,6 +618,16 @@
         <state relative-caret-position="1633">
           <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" column="22484" lean-forward="false" selection-start-line="3" selection-start-column="22484" selection-end-line="3" selection-end-column="22484" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
