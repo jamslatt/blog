@@ -6,7 +6,7 @@
                     <h4 class="title">All Categories</h4>
                 </div>
                 <div class="col-8">
-                    <a href="/c/new" class="newCategory button outline" style="float: right;">New Category</a>
+                    {{#if currentUser}}<a href="/c/new" class="newCategory button outline" style="float: right;">New Category</a>{{/if}}
                 </div>
             </div>
         </div>
